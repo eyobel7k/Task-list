@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+  background: url(../images/todo.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: inherit;
+  font-size: 16px;
+  width: auto;
+  height: 100%;
+}
+.task-lists {
+  /* display: inline-block; */
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgb(106, 16, 16);
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+ 
+  
+}
+.taskList{
+  text-align: center;
+  background-color: rgb(51, 153, 92);
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  font-size: 85px;
+
+}
+
+
+
+
